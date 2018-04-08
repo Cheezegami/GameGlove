@@ -27,8 +27,9 @@ Other:
 
 1 Roll of strong double sided tape.
 
-1 Winter Glove with a Velcro 
+1 Winter Glove (optional with a Velcro Band on the wrist) 
 
+(Optional) : Tie rips for wire management.
 
 # Assembly Guide
 NOTE: Make sure to only use the rightmost 5 cm of your breadboard so that the other components such as the arduino, band and 9v battery are able to rest on the rest of the breadboard, if you're unsure, place the 3 components on the breadboard 
@@ -68,6 +69,9 @@ It's important that you have a strong two sided tape now.
 Put the battery sideways on the leftmost (opposide of your cables and installation) part of the breadboard and tape it to the board with the double sided tape.
 Then leave a margin for the Vectro band of your glove (if neccessary) if you don't have this you should try to use double sided tape underneath here instead.
 Next thing you do is tape the Arduino as far left as you can without obstructing the (optional) Vectro band). If you don't have a Vectro band, put it next to the battery.
+
+
+6.1 (Optional) Tie rip your wires together so that they are less all over the place.
 
 
 7.- Run the code on the Arduino.
