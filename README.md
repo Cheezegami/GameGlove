@@ -103,6 +103,3 @@ Next thing you do is tape the Arduino as far left as you can without obstructing
 7.- Run the code on the Arduino.
 Upload the sampled code on your Arduino and Wham, you have just made your own GameGlove.
 
-# Concept Choices
-
-
