@@ -1,5 +1,31 @@
 # GameGlove
 ![game glove](https://github.com/Cheezegami/GameGlove/blob/master/GameGlove.jpg?raw=true)
+
+# Concept
+The game glove is a wearable glove device that's used to play games. You equip it by putting your hand into the glove and connecting the battery to the Vin and GND. You hold the thumbstick under your wise and middle finger in order to control it with your thumb.
+
+
+It was an iterative process and I tried various ways of implementing the code and concept. Originally I tried to read the time with the modulo operator, but since the arduino timer is inconsistent I went and did the blink without delay approach.
+
+
+The glove concept was something that popped inside of me after thinking about the concept some more. Originally I intended to make a fortune telling machine, but since I lost my lcd panel I went and made a small game using the LED matrix, after that I thought about the portability of this concept and thought of ways to keep it more and more portable.
+
+
+Eventually I disconnected it from the PC and went for an external (9v) power supply.
+
+I also added the Buzzer to create a better game feel and response to the game.
+
+
+Some other interactions I've thought of but are not included as of this version are :
+
+Finger Sensitivity Controls : Instead of a joystick the glove itself measures the axis of a finger.
+
+Bigger LCD Panel : Instead of using the led matrix a bigger panel could be used to display more advanced games.
+
+Game Tracking / Scoreboard : The game itself now doesn't show you your progress, a panel to indicate this could be an option.
+
+Other Sensors : There are a variety of other sensors such as heat, laser and sound sensors that could be used to create more functionality towards the concept.
+
 # Components
 Electronics
 
@@ -76,5 +102,7 @@ Next thing you do is tape the Arduino as far left as you can without obstructing
 
 7.- Run the code on the Arduino.
 Upload the sampled code on your Arduino and Wham, you have just made your own GameGlove.
+
+# Concept Choices
 
 
